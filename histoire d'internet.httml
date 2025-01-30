@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histoire de l'Internet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Histoire de l'Internet</h1>
+</header>
+
+<nav>
+    <a href="#origines">Origines</a>
+    <a href="#evolution">Évolution</a>
+    <a href="#impact">Impact</a>
+</nav>
+
+<section id="origines">
+    <h2>Origines de l'Internet</h2>
+    <p>L'Internet trouve ses racines dans les années 1960, lorsque des scientifiques et des militaires ont commencé à développer un réseau permettant de partager des informations rapidement et efficacement. L'un des premiers projets a été ARPANET, un projet de l'Agence de recherche avancée pour la défense des États-Unis (DARPA), qui permettait aux universités et centres de recherche de se connecter entre eux. En 1969, le premier message a été envoyé via ARPANET : "LO", qui devait être "LOGIN", mais le système a planté avant de compléter le mot.</p>
+</section>
+
+<section id="evolution">
+    <h2>Évolution de l'Internet</h2>
+    <p>Durant les années 70 et 80, l'Internet a continué de croître et de s'améliorer. À mesure que de nouveaux protocoles, comme le TCP/IP (Transmission Control Protocol/Internet Protocol), étaient créés, l'Internet s'est étendu au-delà des cercles académiques et gouvernementaux. En 1991, Tim Berners-Lee a inventé le World Wide Web, permettant à l'Internet de devenir une plateforme accessible au grand public. Avec la création des navigateurs web, comme Mosaic puis Netscape, l'accès à l'information est devenu beaucoup plus facile.</p>
+</section>
+
+<section id="impact">
+    <h2>Impact de l'Internet</h2>
+    <p>L'impact de l'Internet a été révolutionnaire. Il a transformé notre manière de communiquer, de travailler, d'apprendre et de nous divertir. L'accès à l'information est devenu plus démocratisé, et le commerce électronique a permis aux entreprises de toucher des marchés mondiaux. De plus, l'Internet a donné naissance à de nouvelles formes d'interaction sociale, comme les réseaux sociaux, qui ont changé notre façon de nous connecter avec les autres. Aujourd'hui, l'Internet fait partie intégrante de la vie quotidienne dans le monde entier.</p>
+</section>
+
+<footer>
+    <p>Histoire de l'Internet - 2025</p>
+</footer>
+
+</body>
+</html>
 

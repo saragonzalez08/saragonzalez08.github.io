@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <style>
+        body {
+            background-color: green; /* Fond vert */
+            font-family: Arial, sans-serif;
+            color: white; /* Texte en blanc pour contraster avec le fond vert */
+            text-align: center;
+            padding-top: 50px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button-container button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur la page d'accueil</h1>
+
+    <div class="button-container">
+        <button>Histoire d'internet</button>
+        <button>Protocole TPC</button>
+        <button>Protocole IP</button>
+        <button>Routage</button>
+        <button>DNS</button>
+        <button>Réseaux pair à pair</button>
+        <button>Conversion décimal à binaire</button>
+    </div>
+</body>
+</html>
 

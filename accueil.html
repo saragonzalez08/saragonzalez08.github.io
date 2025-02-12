@@ -3,47 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'Accueil</title>
+    <title>Accueil</title>
     <style>
         body {
-            background-color: PINK;
-            text-align: SIDE BY SIDE;
-            font-family: Arial, sans-serif;
-            padding: 50px;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
         }
-        button {
-            display: block;
-            margin: 10px auto;
-            padding: 15px 20px;
-            font-size: 18px;
-            cursor: pointer;
+        .menu {
+            display: flex;
+            gap: 10px;
+        }
+        .menu a {
+            background-color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .menu a:hover {
+            background-color: lightgray;
         }
     </style>
-    <script>
-        function ouvrirFenetre(titre, contenu) {
-            let nouvelleFenetre = window.open("", "_blank", "width=600,height=400");
-            nouvelleFenetre.document.write(`
-                <html>
-                <head><title>${titre}</title></head>
-                <body style="font-family: Arial, sans-serif; padding: 20px;">
-                    <h2>${titre}</h2>
-                    <p>${contenu}</p>
-                </body>
-                </html>
-            `);
-        }
-    </script>
 </head>
 <body>
-    <h1>Page d'accueil</h1>
-    <button onclick="ouvrirFenetre('Histoire de l'Internet', 'L'Internet est né dans les années 1960...')">Histoire de l'Internet</button>
-    <button onclick="ouvrirFenetre('Protocole TCP', 'TCP est un protocole de communication utilisé pour garantir la transmission des données...')">Protocole TCP</button>
-    <button onclick="ouvrirFenetre('Protocole IP', 'Le protocole IP permet d'identifier et de localiser des appareils sur un réseau...')">Protocole IP</button>
-    <button onclick="ouvrirFenetre('Routage', 'Le routage est le processus de sélection des chemins dans un réseau informatique...')">Routage</button>
-    <button onclick="ouvrirFenetre('DNS', 'Le système de noms de domaine (DNS) traduit les noms de domaine en adresses IP...')">DNS</button>
-    <button onclick="ouvrirFenetre('Réseaux pair à pair', 'Un réseau pair à pair permet à des ordinateurs de partager des ressources sans serveur central...')">Réseaux pair à pair</button>
-    <button onclick="ouvrirFenetre('Conversion décimal à binaire', 'La conversion d'un nombre décimal en binaire se fait en divisant successivement par 2...')">Conversion décimal à binaire</button>
+    <div class="menu">
+        <a href="histoire_internet.html">Histoire d'Internet</a>
+        <a href="protocole_tcp.html">Protocole TCP</a>
+        <a href="protocole_ip.html">Protocole IP</a>
+        <a href="dns.html">DNS</a>
+        <a href="routage.html">Routage</a>
+        <a href="reseau_pair_a_pair.html">Réseau pair à pair</a>
+        <a href="conversion_decimal_binaire.html">Conversion décimal à binaire</a>
+    </div>
 </body>
 </html>
+
+            
 
 

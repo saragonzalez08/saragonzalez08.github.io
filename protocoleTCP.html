@@ -1,68 +1,48 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Protocole TCP</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        .info {
-            background: #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        .diagram {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .diagram img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página con Video</title>
+	<style>
+    	body {
+        	background-color: white;
+        	text-align: center;
+        	font-family: Arial, sans-serif;
+    	}
+    	h1 {
+        	color: pink; /* Cambié negro a rosado */
+        	font-size: 3em;
+    	}
+    	video {
+        	display: block;
+        	margin: 20px auto;
+        	width: 90%;
+        	max-width: 1200px;
+    	}
+    	.menu-button {
+        	position: fixed;
+        	bottom: 20px;
+        	right: 20px;
+        	background-color: pink; /* Cambié negro a rosado */
+        	color: white;
+        	padding: 10px 20px;
+        	border-radius: 20px;
+        	text-decoration: none;
+        	font-size: 1.2em;
+        	transition: background-color 0.3s;
+    	}
+    	.menu-button:hover {
+        	background-color: lightpink; /* Cambié gris a rosado claro */
+    	}
+	</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Le Protocole TCP</h1>
-        <p>Le <strong>protocole TCP</strong> (<em>Transmission Control Protocol</em>) est une norme de communication permettant aux programmes et aux appareils d'échanger des messages sur un réseau.</p>
-        
-        <div class="info">
-            <p>Le TCP est conçu pour envoyer des paquets sur Internet tout en garantissant la transmission réussie et l’intégrité des données.</p>
-        </div>
-
-        <h2>Fonctionnement du TCP</h2>
-        <ul>
-            <li>💡 TCP établit d'abord une connexion entre la source et la destination.</li>
-            <li>📦 Il divise les données en petits <strong>paquets</strong> pour l'envoi.</li>
-            <li>✅ Vérifie l'intégrité des données transmises.</li>
-            <li>🔄 Réassemble les paquets pour reconstituer le message.</li>
-        </ul>
-
-        <div class="diagram">
-            <h2>Schéma du TCP</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Internet_Stack.svg" alt="Schéma de fonctionnement du TCP">
-            <p><em>Illustration du protocole TCP (Source: Wikipedia)</em></p>
-        </div>
-    </div>
+	<h1>Protocole TCP</h1>
+	<video controls>
+    	<source src="video.dns.mp4" type="video/mp4">
+    	Tu navegador no soporta la reproducción de videos.
+	</video>
+	<a href="https://saragonzalez08.github.io/accueil" class="menu-button">Menú</a>
 </body>
 </html>
-

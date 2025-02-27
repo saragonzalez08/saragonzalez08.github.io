@@ -1,62 +1,52 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Histoire d'Internet</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-        }
-        .timeline {
-            position: relative;
-            margin: 20px 0;
-            padding-left: 20px;
-            border-left: 3px solid #333;
-        }
-        .timeline div {
-            margin-bottom: 15px;
-            padding: 10px;
-            background: #ddd;
-            border-radius: 5px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página con Video</title>
+	<style>
+    	body {
+        	background-color: white;
+        	text-align: center;
+        	font-family: Arial, sans-serif;
+    	}
+    	h1 {
+        	color: pink; /* Cambié negro a rosado */
+        	font-size: 3em;
+    	}
+    	video {
+        	display: block;
+        	margin: 20px auto;
+        	width: 90%;
+        	max-width: 1200px;
+    	}
+    	.menu-button {
+        	position: fixed;
+        	bottom: 20px;
+        	right: 20px;
+        	background-color: pink; /* Cambié negro a rosado */
+        	color: white;
+        	padding: 10px 20px;
+        	border-radius: 20px;
+        	text-decoration: none;
+        	font-size: 1.2em;
+        	transition: background-color 0.3s;
+    	}
+    	.menu-button:hover {
+        	background-color: lightpink; /* Cambié gris a rosado claro */
+    	}
+	</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Histoire d'Internet</h1>
-        <p>L'histoire d'Internet remonte aux années 1950-1960. Internet est un réseau de réseaux d'ordinateurs où circulent des données. Les machines échangent des requêtes. Celles qui envoient les requêtes sont appelées <strong>clients</strong> et celles qui répondent <strong>serveurs</strong>.</p>
-        <p>L'Internet trouve ses racines dans la <strong>guerre froide</strong>. Les États-Unis voulaient un réseau de communication capable de survivre à une attaque nucléaire.</p>
-        <p>En 1969, l'<strong>ARPANET</strong> (Advanced Research Projects Agency Network) est créé par le Département de la Défense américain. C’était un réseau permettant la communication entre des universités et des institutions de recherche.</p>
-        
-        <h2>Frise Chronologique</h2>
-        <div class="timeline">
-            <div><strong>1950-1960 :</strong> Premières idées sur un réseau informatique.</div>
-            <div><strong>1969 :</strong> Création d'ARPANET.</div>
-            <div><strong>1971 :</strong> Envoi du premier e-mail par Ray Tomlinson.</div>
-            <div><strong>1983 :</strong> Adoption du protocole TCP/IP.</div>
-            <div><strong>1989 :</strong> Tim Berners-Lee invente le World Wide Web.</div>
-            <div><strong>1991 :</strong> Mise en ligne du premier site web.</div>
-            <div><strong>2000s :</strong> Essor du web moderne et des réseaux sociaux.</div>
-        </div>
-    </div>
+	<h1>Histoire d'Internet</h1>
+	<video controls>
+    	<source src="video.dns.mp4" type="video/mp4">
+    	Tu navegador no soporta la reproducción de videos.
+	</video>
+	<a href="https://saragonzalez08.github.io/accueil" class="menu-button">Menú</a>
 </body>
 </html>
+
 
           
 

@@ -13,11 +13,14 @@
             height: 100vh;
             flex-direction: column;
         }
+        .top-button {
+            margin-bottom: 20px;
+        }
         .menu {
             display: flex;
             gap: 10px;
         }
-        .menu a {
+        .menu a, .top-button a {
             background-color: white;
             padding: 10px 15px;
             text-decoration: none;
@@ -25,12 +28,15 @@
             border-radius: 5px;
             font-weight: bold;
         }
-        .menu a:hover {
+        .menu a:hover, .top-button a:hover {
             background-color: lightgray;
         }
     </style>
 </head>
 <body>
+    <div class="top-button">
+        <a href="https://saragonzalez08.github.io/nouveau">Photographie Numerique</a>
+    </div>
     <div class="menu">
         <a href="https://saragonzalez08.github.io/histoire">Histoire d'Internet</a>
         <a href="https://saragonzalez08.github.io/protocoleTCP">Protocole TCP</a>
@@ -42,7 +48,3 @@
     </div>
 </body>
 </html>
-
-            
-
-

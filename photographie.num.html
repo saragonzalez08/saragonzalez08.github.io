@@ -1,47 +1,50 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <style>
-        body {
-            background-color: pink;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        .menu {
-            display: flex;
-            gap: 10px;
-        }
-        .menu a {
-            background-color: white;
-            padding: 10px 15px;
-            text-decoration: none;
-            color: black;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .menu a:hover {
-            background-color: lightgray;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página con Video</title>
+	<style>
+    	body {
+        	background-color: white;
+        	text-align: center;
+        	font-family: Arial, sans-serif;
+    	}
+    	h1 {
+        	color: pink; /* Cambié negro a rosado */
+        	font-size: 3em;
+    	}
+    	video {
+        	display: block;
+        	margin: 20px auto;
+        	width: 90%;
+        	max-width: 1200px;
+    	}
+    	.menu-button {
+        	position: fixed;
+        	bottom: 20px;
+        	right: 20px;
+        	background-color: pink; /* Cambié negro a rosado */
+        	color: white;
+        	padding: 10px 20px;
+        	border-radius: 20px;
+        	text-decoration: none;
+        	font-size: 1.2em;
+        	transition: background-color 0.3s;
+    	}
+    	.menu-button:hover {
+        	background-color: lightpink; /* Cambié gris a rosado claro */
+    	}
+	</style>
 </head>
 <body>
-    <div class="menu">
-        <a href="https://saragonzalez08.github.io/histoire">Histoire d'Internet</a>
-        <a href="https://saragonzalez08.github.io/protocoleTCP">Protocole TCP</a>
-        <a href="https://saragonzalez08.github.io/protocoleIP">Protocole IP</a>
-        <a href="https://saragonzalez08.github.io/DNS">DNS</a>
-        <a href="https://saragonzalez08.github.io/routage">Routage</a>
-        <a href="https://saragonzalez08.github.io/reseau">Réseau pair à pair</a>
-        <a href="https://saragonzalez08.github.io/conversion">Conversion décimal à binaire</a>
-    </div>
+	<h1>Photographie Numerique</h1>
+	<video controls>
+    	<source src="photo numerique.mp4" type="video/mp4">
+    	Tu navegador no soporta la reproducción de videos.
+	</video>
+	<a href="https://saragonzalez08.github.io/accueil" class="menu-button">Menú</a>
 </body>
 </html>
 
-            
 
